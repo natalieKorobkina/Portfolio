@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "JSExercises";
+}
+
+<h2>JSExercises</h2>
+@section scripts {
+    <script type="text/javascript" src="~/Scripts/JSEx/JSExercises.js"></script>
+}
+<h3>Actions with numbers</h3>
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-inline" id="numbers-calc">
+            <div class="form-group">
+                <input type="text" class="form-control" id="input1-numbers" placeholder="number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="input2-numbers" placeholder="number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="input3-numbers" placeholder="number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="input4-numbers" placeholder="number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="input5-numbers" placeholder="number">
+            </div>
+            <button type="submit" class="btn btn-default" id="btn-numbers">Calculate</button>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @*<ul class="list-group">
+                <li class="list-group-item" id="rslt-least"></li>
+                <li class="list-group-item" id="rslt-greatest"></li>
+                <li class="list-group-item" id="rslt-mean"></li>
+                <li class="list-group-item" id="rslt-sum"></li>
+                <li class="list-group-item" id="rslt-product"></li>
+            </ul>*@
+        <div id="rslt-least"></div>
+        <div id="rslt-greatest"></div>
+        <div id="rslt-mean"></div>
+        <div id="rslt-sum"></div>
+        <div id="rslt-product"></div>
+    </div>
+</div>
+<hr />
+<h3>Factorial</h3>
+<div class="row">
+    <div class="col-md-6">
+        <form class="form-inline" id="factorial-calc">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inp-factorial" placeholder="number">
+            </div>
+            <button type="submit" class="btn btn-default" id="btn-factorial">Calculate</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <ul class="list-group">
+            <li class="list-group-item" id="rslt-factorial"></li>
+        </ul>
+    </div>
+</div>
+<hr />
+<h3>Multiples</h3>
+<div class="row">
+    <div class="col-md-6">
+        <form class="form-inline" id="fb-calc">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inp1-fb" placeholder="number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="inp2-fb" placeholder="number">
+            </div>
+            <button type="submit" class="btn btn-default" id="btn-fb">Print</button>
+        </form>
+    </div>
+    <div class="col-md-6" id="rslt-fb">
+    </div>
+</div>
+<hr />
+<h3>Polidrome</h3>
+<div class="row">
+    <div class="col-md-6">
+        <form class="form-inline" id="polidrome-calc">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inp-polidrome" placeholder="word">
+            </div>
+            <button type="submit" class="btn btn-default" id="btn-polidrome">Is Polidrome?</button>
+        </form>
+    </div>
+    <div class="col-md-6" id="rslt-polidrome">
+    </div>
+</div>
