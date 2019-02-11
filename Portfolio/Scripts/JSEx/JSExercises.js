@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    //ex.1
+    //Ex.1
     $("#numbers-calc").submit(function (e) {
         e.preventDefault();
         let arrInputs = [];
@@ -33,12 +33,12 @@
             })));
         }
     });
-    //Modal window ex.1
+    //Toggle code button label ex.1
     $("#btn-ex1-code").click(function () {
         $("#ex1-code").toggle();
         $(this).text() == "Show code" ? $(this).text("Hide code") : $(this).text("Show code");
     });
-    //ex.2
+    //Ex.2
     $("#factorial-calc").submit(function (e) {
         e.preventDefault();
         if (!parseInt($("#inp-factorial").val())) {
@@ -51,12 +51,12 @@
             $("#rslt-factorial").text(`Factorial is: ${result}`);
         }
     });
-    //Modal window ex.2
+    //Toggle code button label ex.2
     $("#btn-ex2-code").click(function () {
         $("#ex2-code").toggle();
         $(this).text() == "Show code" ? $(this).text("Hide code") : $(this).text("Show code");
     });
-    //ex3
+    //Ex.3
     $("#fb-calc").submit(function (e) {
         e.preventDefault();
         let input1Multiples = parseInt($("#inp1-fb").val());
@@ -80,12 +80,12 @@
             $("#rslt-fb").text(newString);
         }
     });
-    //Modal window ex.3
+    //Toggle code button label ex.3
     $("#btn-ex3-code").click(function () {
         $("#ex3-code").toggle();
         $(this).text() == "Show code" ? $(this).text("Hide code") : $(this).text("Show code");
     });
-    //ex4
+    //Ex.4
     $("#polidrome-calc").submit(function (e) {
         e.preventDefault();
         let initialString = $("#inp-polidrome").val();
@@ -100,12 +100,12 @@
             }
         }
     });
-    //Modal window ex.4
+    //Toggle code button label ex.4
     $("#btn-ex4-code").click(function () {
         $("#ex4-code").toggle();
         $(this).text() == "Show code" ? $(this).text("Hide code") : $(this).text("Show code");
     });
-    //modal popups on hover
+    //Modal popups on hover
     $('[data-toggle="popover"]').popover({
         placement: 'top',
         trigger: 'hover',
