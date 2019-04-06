@@ -164,12 +164,14 @@
     <Content Include="img\portfolio\fullsize\4.jpg" />
     <Content Include="img\portfolio\fullsize\5.jpg" />
     <Content Include="img\portfolio\fullsize\6.jpg" />
+    <Content Include="img\portfolio\fullsize\7.jpg" />
     <Content Include="img\portfolio\thumbnails\1.jpg" />
     <Content Include="img\portfolio\thumbnails\2.jpg" />
     <Content Include="img\portfolio\thumbnails\3.jpg" />
     <Content Include="img\portfolio\thumbnails\4.jpg" />
     <Content Include="img\portfolio\thumbnails\5.jpg" />
     <Content Include="img\portfolio\thumbnails\6.jpg" />
+    <Content Include="img\portfolio\thumbnails\7.jpg" />
     <Content Include="Scripts\creative.js" />
     <Content Include="Scripts\creative.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -177,6 +179,7 @@
     <Content Include="less\creative.less" />
     <Content Include="less\mixins.less" />
     <Content Include="less\variables.less" />
+    <None Include="Properties\PublishProfiles\Portfolio-MVC - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

@@ -88,7 +88,7 @@
     //Ex.4
     $("#polidrome-calc").submit(function (e) {
         e.preventDefault();
-        let initialString = $("#inp-polidrome").val();
+        let initialString = $("#inp-polidrome").val().toLowerCase();
         let reverseString = initialString.split("").reverse().join("");
         if (!isNaN(initialString) || initialString === "") {
             $("#rslt-polidrome").text("The field should be filled. Just a word is accepted!");
